@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the samtalsstod package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Daniel Nylander <po@danielnylander.se>, 2026
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: samtalsstod\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-22 17:18+0100\n"
+"PO-Revision-Date: 2026-02-22 16:22+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>, 2026\n"
+"Language-Team: Swedish (https://app.transifex.com/danielnylander/teams/305241/sv/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/samtalsstod/main.py:21
+msgid "My Turn"
+msgstr "Min tur"
+
+#: src/samtalsstod/main.py:21
+msgid "It is my turn to talk now"
+msgstr "Nu är det min tur att prata"
+
+#: src/samtalsstod/main.py:22
+msgid "Your Turn"
+msgstr "Din tur"
+
+#: src/samtalsstod/main.py:22
+msgid "It is your turn to talk now"
+msgstr "Nu är det din tur att prata"
+
+#: src/samtalsstod/main.py:23
+msgid "Wait"
+msgstr "Vänta"
+
+#: src/samtalsstod/main.py:23
+msgid "Please wait, I am thinking"
+msgstr "Vänta lite, jag tänker"
+
+#: src/samtalsstod/main.py:24
+msgid "I Don't Understand"
+msgstr "Jag förstår inte"
+
+#: src/samtalsstod/main.py:24
+msgid "Can you explain again?"
+msgstr "Kan du förklara igen?"
+
+#: src/samtalsstod/main.py:25
+msgid "Too Loud"
+msgstr "För högt"
+
+#: src/samtalsstod/main.py:25
+msgid "It is too loud for me"
+msgstr "Det är för högt för mig"
+
+#: src/samtalsstod/main.py:26
+msgid "Break"
+msgstr "Rast"
+
+#: src/samtalsstod/main.py:26
+msgid "I need a break"
+msgstr "Jag behöver en rast"
+
+#: src/samtalsstod/main.py:27
+msgid "Yes"
+msgstr "Ja"
+
+#: src/samtalsstod/main.py:27
+msgid "Yes, I agree"
+msgstr "Ja, jag håller med"
+
+#: src/samtalsstod/main.py:28
+msgid "No"
+msgstr "Nej"
+
+#: src/samtalsstod/main.py:28
+msgid "No, I don't want that"
+msgstr "Nej, det vill jag inte"
+
+#: src/samtalsstod/main.py:29
+msgid "Help"
+msgstr "Hjälp"
+
+#: src/samtalsstod/main.py:29
+msgid "I need help"
+msgstr "Jag behöver hjälp"
+
+#: src/samtalsstod/main.py:30
+msgid "Happy"
+msgstr "Glad"
+
+#: src/samtalsstod/main.py:30
+msgid "I feel happy right now"
+msgstr "Jag känner mig glad nu"
+
+#: src/samtalsstod/main.py:31
+msgid "Sad"
+msgstr "Ledsen"
+
+#: src/samtalsstod/main.py:31
+msgid "I feel sad right now"
+msgstr "Jag känner mig ledsen nu"
+
+#: src/samtalsstod/main.py:32
+msgid "Thank You"
+msgstr "Tack"
+
+#: src/samtalsstod/main.py:32
+msgid "Thank you!"
+msgstr "Tack!"
+
+#: src/samtalsstod/main.py:38 src/samtalsstod/main.py:110
+msgid "Samtalsstöd"
+msgstr "Samtalsstöd"
+
+#: src/samtalsstod/main.py:44
+msgid "About"
+msgstr "Om"
+
+#: src/samtalsstod/main.py:51
+msgid "Tap a card to show it"
+msgstr "Tryck på ett kort för att visa det"
+
+#: src/samtalsstod/main.py:114
+msgid "Visual conversation support cards"
+msgstr "Kort för visuellt samtalsstöd"
