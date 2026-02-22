@@ -1,0 +1,130 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the samtalsstod package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: samtalsstod\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-22 17:18+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/samtalsstod/main.py:21
+msgid "My Turn"
+msgstr ""
+
+#: src/samtalsstod/main.py:21
+msgid "It is my turn to talk now"
+msgstr ""
+
+#: src/samtalsstod/main.py:22
+msgid "Your Turn"
+msgstr ""
+
+#: src/samtalsstod/main.py:22
+msgid "It is your turn to talk now"
+msgstr ""
+
+#: src/samtalsstod/main.py:23
+msgid "Wait"
+msgstr ""
+
+#: src/samtalsstod/main.py:23
+msgid "Please wait, I am thinking"
+msgstr ""
+
+#: src/samtalsstod/main.py:24
+msgid "I Don't Understand"
+msgstr ""
+
+#: src/samtalsstod/main.py:24
+msgid "Can you explain again?"
+msgstr ""
+
+#: src/samtalsstod/main.py:25
+msgid "Too Loud"
+msgstr ""
+
+#: src/samtalsstod/main.py:25
+msgid "It is too loud for me"
+msgstr ""
+
+#: src/samtalsstod/main.py:26
+msgid "Break"
+msgstr ""
+
+#: src/samtalsstod/main.py:26
+msgid "I need a break"
+msgstr ""
+
+#: src/samtalsstod/main.py:27
+msgid "Yes"
+msgstr ""
+
+#: src/samtalsstod/main.py:27
+msgid "Yes, I agree"
+msgstr ""
+
+#: src/samtalsstod/main.py:28
+msgid "No"
+msgstr ""
+
+#: src/samtalsstod/main.py:28
+msgid "No, I don't want that"
+msgstr ""
+
+#: src/samtalsstod/main.py:29
+msgid "Help"
+msgstr ""
+
+#: src/samtalsstod/main.py:29
+msgid "I need help"
+msgstr ""
+
+#: src/samtalsstod/main.py:30
+msgid "Happy"
+msgstr ""
+
+#: src/samtalsstod/main.py:30
+msgid "I feel happy right now"
+msgstr ""
+
+#: src/samtalsstod/main.py:31
+msgid "Sad"
+msgstr ""
+
+#: src/samtalsstod/main.py:31
+msgid "I feel sad right now"
+msgstr ""
+
+#: src/samtalsstod/main.py:32
+msgid "Thank You"
+msgstr ""
+
+#: src/samtalsstod/main.py:32
+msgid "Thank you!"
+msgstr ""
+
+#: src/samtalsstod/main.py:38 src/samtalsstod/main.py:110
+msgid "Samtalsstöd"
+msgstr ""
+
+#: src/samtalsstod/main.py:44
+msgid "About"
+msgstr ""
+
+#: src/samtalsstod/main.py:51
+msgid "Tap a card to show it"
+msgstr ""
+
+#: src/samtalsstod/main.py:114
+msgid "Visual conversation support cards"
+msgstr ""

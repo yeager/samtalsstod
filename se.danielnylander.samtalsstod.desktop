@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=usamtalsstod
+Comment=Visual conversation support cards for children with autism
+Comment[sv]=Visuella samtalskort för barn
+Exec=samtalsstod
+Icon=se.danielnylander.samtalsstod
+Type=Application
+Categories=Education;Accessibility;

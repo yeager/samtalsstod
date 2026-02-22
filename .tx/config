@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+[o:danielnylander:p:samtalsstod:r:samtalsstod-pot]
+file_filter = po/<lang>.po
+source_file = po/samtalsstod.pot
+source_lang = en
+type = PO
