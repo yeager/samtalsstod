@@ -35,7 +35,7 @@ CARDS = [
 class MainWindow(Adw.ApplicationWindow):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-        self.set_title(_('Samtalsstöd'))
+        self.set_title(_('Conversation Support'))
         self.set_default_size(550, 550)
         
         header = Adw.HeaderBar()
@@ -107,7 +107,7 @@ class App(Adw.Application):
     def _on_activate(self, app):
         MainWindow(application=app).present()
     def _on_about(self, a, p):
-        Adw.AboutDialog(application_name=_('Samtalsstöd'), application_icon=APP_ID,
+        Adw.AboutDialog(application_name=_('Conversation Support'), application_icon=APP_ID,
             version=__version__, developer_name='Daniel Nylander',
             website='https://github.com/yeager/samtalsstod',
             license_type=Gtk.License.GPL_3_0,

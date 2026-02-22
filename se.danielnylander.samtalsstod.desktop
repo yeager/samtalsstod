@@ -1,5 +1,6 @@
 [Desktop Entry]
-Name=usamtalsstod
+Name=Conversation Support
+Name[sv]=Samtalsstöd
 Comment=Visual conversation support cards for children with autism
 Comment[sv]=Visuella samtalskort för barn
 Exec=samtalsstod
