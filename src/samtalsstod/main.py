@@ -38,7 +38,21 @@ class MainWindow(Adw.ApplicationWindow):
         self.set_title(_('Conversation Support'))
         self.set_default_size(550, 550)
         
+        
+        # Easter egg state
+        self._egg_clicks = 0
+        self._egg_timer = None
+
         header = Adw.HeaderBar()
+        
+        # Add clickable app icon for easter egg
+        app_btn = Gtk.Button()
+        app_btn.set_icon_name("se.danielnylander.samtalsstod")
+        app_btn.add_css_class("flat")
+        app_btn.set_tooltip_text(_("Samtalsstod"))
+        app_btn.connect("clicked", self._on_icon_clicked)
+        header.pack_start(app_btn)
+
         menu_btn = Gtk.MenuButton(icon_name='open-menu-symbolic')
         menu = Gio.Menu()
         menu.append(_('About'), 'app.about')
@@ -96,6 +110,51 @@ class MainWindow(Adw.ApplicationWindow):
     def _show_card(self, btn, card):
         self._display.set_text(f"{card['icon']}  {_(card['name'])}")
         self._desc.set_text(_(card['desc']))
+    def _on_icon_clicked(self, *args):
+        """Handle clicks on app icon for easter egg."""
+        self._egg_clicks += 1
+        if self._egg_timer:
+            GLib.source_remove(self._egg_timer)
+        self._egg_timer = GLib.timeout_add(500, self._reset_egg)
+        if self._egg_clicks >= 7:
+            self._trigger_easter_egg()
+            self._egg_clicks = 0
+
+    def _reset_egg(self):
+        """Reset easter egg click counter."""
+        self._egg_clicks = 0
+        self._egg_timer = None
+        return False
+
+    def _trigger_easter_egg(self):
+        """Show the secret easter egg!"""
+        try:
+            # Play a fun sound
+            import subprocess
+            subprocess.Popen(['paplay', '/usr/share/sounds/freedesktop/stereo/complete.oga'], 
+                           stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        except:
+            # Fallback beep
+            try:
+                subprocess.Popen(['pactl', 'play-sample', 'bell'], 
+                               stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+            except:
+                pass
+
+        # Show confetti message
+        toast = Adw.Toast.new(_("🎉 Du hittade hemligheten!"))
+        toast.set_timeout(3)
+        
+        # Create toast overlay if it doesn't exist
+        if not hasattr(self, '_toast_overlay'):
+            content = self.get_content()
+            self._toast_overlay = Adw.ToastOverlay()
+            self._toast_overlay.set_child(content)
+            self.set_content(self._toast_overlay)
+        
+        self._toast_overlay.add_toast(toast)
+
+
 
 class App(Adw.Application):
     def __init__(self):
