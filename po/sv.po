@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: samtalsstod\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-22 17:18+0100\n"
+"POT-Creation-Date: 2026-02-23 11:03+0100\n"
 "PO-Revision-Date: 2026-02-22 16:22+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>, 2026\n"
 "Language-Team: Swedish (https://app.transifex.com/danielnylander/teams/305241/sv/)\n"
@@ -117,18 +117,30 @@ msgstr "Tack"
 msgid "Thank you!"
 msgstr "Tack!"
 
-#: src/samtalsstod/main.py:38 src/samtalsstod/main.py:110
-msgid "Samtalsstöd"
+#: src/samtalsstod/main.py:38 src/samtalsstod/main.py:169
+msgid "Conversation Support"
 msgstr "Samtalsstöd"
 
-#: src/samtalsstod/main.py:44
+#: src/samtalsstod/main.py:52
+msgid "Samtalsstod"
+msgstr "Samtalsstöd"
+
+#: src/samtalsstod/main.py:58
 msgid "About"
 msgstr "Om"
 
-#: src/samtalsstod/main.py:51
+#: src/samtalsstod/main.py:65
 msgid "Tap a card to show it"
 msgstr "Tryck på ett kort för att visa det"
 
-#: src/samtalsstod/main.py:114
-msgid "Visual conversation support cards"
-msgstr "Kort för visuellt samtalsstöd"
+#: src/samtalsstod/main.py:145
+msgid "🎉 Du hittade hemligheten!"
+msgstr "🎉 Du hittade hemligheten!"
+
+#: src/samtalsstod/main.py:172
+msgid "Communication aid with picture support"
+msgstr "Kommunikationshjälpmedel med bildstöd"
+
+#: src/samtalsstod/main.py:174
+msgid "Thanks to"
+msgstr "Tack till"
